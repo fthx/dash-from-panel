@@ -30,6 +30,7 @@ class Dock extends Dash.Dash {
         this.show();
         this.dock_animated = false;
         this.keep_dock_shown = false;
+        if (settings.get_boolean('hide-dock-on-session-init')) this.hide();
     }
 
     _itemMenuStateChanged(item, opened) {

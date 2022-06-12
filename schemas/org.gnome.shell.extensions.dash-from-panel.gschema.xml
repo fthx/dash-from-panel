@@ -45,5 +45,11 @@
         <description>Duration, in milliseconds, of dock hiding animation.</description>
     </key>
 
+    <key type="b" name="hide-dock-on-session-init">
+        <default>false</default>
+        <summary>Hide dock on session init</summary>
+        <description>If true, dock is not shown on session init.</description>
+    </key>
+
     </schema>
 </schemalist>
